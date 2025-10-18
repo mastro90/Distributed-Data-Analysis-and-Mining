@@ -1,18 +1,17 @@
 # Distributed-Data-Analysis-and-Mining-Project
 
-La cartella progettuale è suddivisa in due folder principali contenenti i datasets(non presentio nella repository per problemi di grandezza) e i codici  per ognuno dei quattro casi di studio: Nord, Sud, Est, Ovest del problema affrontato. Contiene inoltre un report in formato pdf dell'attività svolta.
+The project folder is divided into two main folders containing the datasets (not included in the repository due to size limitations) and the code for each of the four case studies: North, South, East, and West of the addressed problem. It also includes a PDF report describing the work carried out.
 
-In particolare la cartella Codes è stata suddivisa in ulteriori 4 cartelle contenenti ciascuna le logiche relative ai task conseguiti nei 4 differenti casi di studio:
+Specifically, the Codes folder is further divided into four subfolders, each containing the logic related to the tasks completed in the four different case studies:
 
 - Data Understanding & Feature Extraction
 - Data Preparation
 - Clustering
 - Classification
 
-Il codice è stato interamente sviluppato in ambiente Spark utilizzando le principali librerie associate al modulo pyspark:
-
-- ml -> per concatenare in apposite Pipeline attività di normalizzazione, vettorizzazione e allenamento dei modelli.
-- mllib -> per applicare i principali algoritmi di Machine Learning e valutarne le performance tramite le metriche principali.
-- sql -> per eseguire operazioni SQL su dati distribuiti.
+The code was entirely developed in a Spark environment, using the main libraries associated with the PySpark module:
+- ml -> to concatenate normalization, vectorization, and model training activities within dedicated Pipelines.
+- mllib -> to apply the main Machine Learning algorithms and evaluate their performance using key metrics.
+- sql -> to perform SQL operations on distributed data.
  
-Ulteriori librerie come Seaborn e Pandas sono state utilizzate all'occorrenza per visualizzare determinati risultati in modo appropriato.
+Additional libraries such as Seaborn and Pandas were used when necessary to properly visualize specific results.
